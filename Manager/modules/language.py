@@ -1,14 +1,14 @@
-from haruka.modules.sql.translation import switch_to_locale, prev_locale
-from haruka.modules.translations.strings import tld
+from Manager.modules.sql.translation import switch_to_locale, prev_locale
+from Manager.modules.translations.strings import tld
 from telegram.ext import CommandHandler
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
-from haruka import dispatcher
-from haruka.modules.translations.list_locale import list_locales
-from haruka.modules.helper_funcs.chat_status import user_admin
-from telegram.ext import CallbackQueryHandler
+from Manager import dispatcher
+from Manager.modules.translations.list_locale import list_locales
+from Manager.modules.helper_funcs.chat_status import user_admin
+from telegram.xt import CallbackQueryHandler
 import re
 
-from haruka.modules.connection import connected
+from Manager.modules.connection import connected
 
 
 @user_admin
