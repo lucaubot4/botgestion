@@ -1,6 +1,6 @@
-from haruka.modules.sql.translation import prev_locale
-from haruka.modules.translations.English import EnglishStrings
-from haruka.modules.translations.Italian import ItalianStrings
+from Manager.modules.sql.translation import prev_locale
+from Manager.modules.translations.English import EnglishStrings
+from Manager.modules.translations.Italian import ItalianStrings
 
 def tld(chat_id, t, show_none=True):
     LANGUAGE = prev_locale(chat_id)
