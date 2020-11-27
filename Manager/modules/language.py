@@ -3,7 +3,7 @@ from Manager.modules.translations.strings import tld
 from telegram.ext import CommandHandler
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
 from Manager import dispatcher
-from Manager.modules.translations.list_locale import list_locales
+from Manager.modules.translation.list_locale import list_locales
 from Manager.modules.helper_funcs.chat_status import user_admin
 from telegram.xt import CallbackQueryHandler
 import re
